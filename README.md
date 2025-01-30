@@ -9,17 +9,17 @@ Add tasks with a title, description, due date, and status.
 Status defaults to "Pending".
  # View Tasks:
 View a list of all tasks in a responsive table.
-Tasks are color-coded based on their status:
+# Tasks are color-coded based on their status:
  Pending: Red
 In Progress: Orange
 Completed: Green
-Update Tasks:
+# Update Tasks:
 Edit task details (title, description, due date, and status).
-Delete Tasks:
+# Delete Tasks:
 Delete tasks with a confirmation prompt.
-API Integration:
+# API Integration:
 The front-end communicates with the back-end using RESTful APIs.
-Technologies Used
+# Technologies Used
 Front-end:
 HTML, CSS, JavaScript
 Bootstrap (for styling)
@@ -31,12 +31,12 @@ APIs:
 create_task.php: Handles task creation.
 update_task.php: Handles task updates.
 delete_task.php: Handles task deletion.
-Setup Instructions
-Prerequisites
+# Setup Instructions
+# Prerequisites
 Web Server:
 Install a local web server like XAMPP, WAMP, or MAMP.
 Ensure PHP and MySQL are enabled.
-Database:
+# Database:
 Create a MySQL database named task_manager.
 Run the following SQL query to create the tasks table:
 CREATE TABLE tasks (
@@ -65,7 +65,7 @@ Open your browser and navigate to:
 http://localhost/task-manager/index.php
 Use the application to create, view, update, and delete tasks.
 # API Endpoints
-Create Task:
+# Create Task:
 URL: api/create_task.php
 Method: POST
 Request Body:
@@ -79,7 +79,7 @@ Response:
 {
   "success": true
 }
-Update Task:
+# Update Task:
 URL: api/update_task.php
 Method: POST
 Request Body:
