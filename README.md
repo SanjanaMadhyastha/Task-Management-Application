@@ -4,13 +4,13 @@
 This is a simple Task Management Application built using PHP, MySQL, and Bootstrap. It allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks. The application features a responsive front-end interface and a back-end API to handle task-related operations.
 
 # Features
-Create Tasks:
+# Create Tasks:
 Add tasks with a title, description, due date, and status.
 Status defaults to "Pending".
-View Tasks:
+ # View Tasks:
 View a list of all tasks in a responsive table.
 Tasks are color-coded based on their status:
-Pending: Red
+ Pending: Red
 In Progress: Orange
 Completed: Green
 Update Tasks:
